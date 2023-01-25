@@ -28,35 +28,35 @@ most important protocol
 
 The tag will be applied between an open tag and a close tag.
 
-## <html>
+## `<html>`
 
 Indicates that this tag contains contexts based on HTML language.
 
-## <head>
+## `<head>`
 
 Indicates that the head tag contains additional website information (or settings).
 
-### <title>
+### `<title>`
 
 Sets the title of website
 
-## <body>
+## `<body>`
 
 Indicates that between body tag contains the contexts of a website.
 
-### <h1>
+### `<h1>`
 
 acronym of heading 1 (Biggest title)
 
-### <h2>
+### `<h2>`
 
 acronym of heading 2
 
-### <strong>
+### `<strong>`
 
 makes text bold (emphasize text)
 
-### <a>
+### `<a>`
 
 acronym of “anchor”
 
@@ -69,33 +69,33 @@ really important tag of HyperText
 - title= tooltip
 - target= where to open this link
 
-### <ol>
+### `<ol>`
 
 acronym of “ordered list”
 
-used with tag <li> → tagged with <li> inside <ol> means they are orderly listed (with numbering)
+used with tag `<li>` → tagged with `<li>` inside `<ol>` means they are orderly listed (with numbering)
 
-### <ul>
+### `<ul>`
 
 acronym of “unordered list”
 
-used with tag <li> → tagged with <li> inside <ul> means they are unorderly listed (just with a dotted list)
+used with tag `<li>` → tagged with `<li>` inside `<ul>` means they are unorderly listed (just with a dotted list)
 
-### <li>
+### `<li>`
 
-often used with <ol> and <ul>, to indicate that this is a component of list
+often used with `<ol>` and `<ul>`, to indicate that this is a component of list
 
-### <p>
+### `<p>`
 
 Between this tag means that it is “one” paragraph.
 
-### <br>
+### `<br>`
 
 acronym of break
 
 This separates lines, but not a good way to separate paragraphs → instead use CSS
 
-### <img>
+### `<img>`
 
 Indicates that the following src attributes will contain an image (which contains an image format file)
 
@@ -106,21 +106,21 @@ Indicates that the following src attributes will contain an image (which contain
         - Note that if you enter both of them, the image’s ratio can be destroyed. Using only one attribute(width or height) is a better way.
     - title=title of image (appears when the mouse hovers on the image)
 
-### <table>
+### `<table>`
 
 Indicates that data has a form of a table
 
 - main elements
-    - <tr>: between this tag will be “one” record
-    - <th>: between this tag will be “one” field that is “HEAD” of table
-    - <td>: between this tag will be “one” field
+    - `<tr>`: between this tag will be “one” record
+    - `<th>`: between this tag will be “one” field that is “HEAD” of table
+    - `<td>`: between this tag will be “one” field
         - rowspan attributes: Merge cells from this cell to N rows down cell
         - colspan attributes: Merg cells from this cell to N columns right cell
-- <thead>: <tr> and <th> tag inserted in this tag will be the “HEAD” of the table
-- <tbody>: <tr> and <td> tag inserted in this tag will be the “BODY” of the table
-- <tfoot>: <tr> and <td> tag inserted in this tag will be the “FOOTER” of the table
+- `<thead>`: `<tr>` and `<th>` tag inserted in this tag will be the “HEAD” of the table
+- `<tbody>`: `<tr>` and `<td>` tag inserted in this tag will be the “BODY” of the table
+- `<tfoot>`: `<tr>` and `<td>` tag inserted in this tag will be the “FOOTER” of the table
 
-### <input>
+### `<input>`
 
 Allows a user to input some informations in a box (or interact with the website)
 
@@ -139,35 +139,35 @@ Allows a user to input some informations in a box (or interact with the website)
     - checked: (works with “radio” and “checkbox”) default value which already chosen
     - onclick=”{JavaScript}”: (works with “button”) choose what happens when button clicks
 
-### <select>
+### `<select>`
 
-tags that can make a dropdown box (used with <option> tag)
+tags that can make a dropdown box (used with `<option>` tag)
 
-### <option>
+### `<option>`
 
-makes options in the <select> tag
+makes options in the `<select>` tag
 
 - attributes
-    - value=”{value}”: selection value (when you send information to server using <form>)
+    - value=”{value}”: selection value (when you send information to server using `<form>`)
 
-### <textarea>
+### `<textarea>`
 
-Write strings (<input> that can write really long string information)
+Write strings (`<input>` that can write really long string information)
 
 - attributes
     - cols=”{number}”: box column size
     - rows=”{number}”: box row size
 
-### <label>
+### `<label>`
 
-(mainly for information) sets label values to <input> tags
+(mainly for information) sets label values to `<input>` tags
 
 - attributes
     - for=”{label_name}”: sets label’s name
 
-### <form>
+### `<form>`
 
-all <input>s can interact with server with <form> tag
+all `<input>`s can interact with server with `<form>` tag
 
 - attributes
     - action=”{URL}”: where to send a request based on this information
@@ -198,25 +198,25 @@ acronym of “Document type declaration”
 
 Informs web browser what this file has been written in. (What protocol has been used)
 
-Now it has been integrated to <!DOCTYPE html>
+Now it has been integrated to `<!DOCTYPE html>`
 
 # HTML as information
 
-## <font> - DO NOT USE
+## `<font>` - DO NOT USE
 
 can set some font designs to text
 
 HTML is important for information!
 
-design can be done with CSS, so you should not use HTML <font> tags to apply font attributes
+design can be done with CSS, so you should not use HTML `<font>` tags to apply font attributes
 
-### Why <font> has been excluded from HTML?
+### Why `<font>` has been excluded from HTML?
 
 HTML tags should deliver information about elements.
 
-<font> tag does not indicate any information about texts, but design.
+`<font>` tag does not indicate any information about texts, but design.
 
-## <meta>
+## `<meta>`
 
 Website page static scope information.
 
@@ -232,44 +232,44 @@ Website page static scope information.
 
 tags only for information
 
-### <header>
+### `<header>`
 
 Indicates that this is HEADER of the page
 
-### <nav>
+### `<nav>`
 
 Indicates that this is the navigation element of the page
 
-### <section>
+### `<section>`
 
 Defines sections of the page
 
-### <article>
+### `<article>`
 
 Defines that this is main texts
 
-### <footer>
+### `<footer>`
 
 Indicates that this is FOOTER of the page(privacy, about, etc.)
 
 ### other tags
 
-- <aside>: not related to page
-- <details>: not rendered information
-- <figure>: additional figure or diagram
-- <main>: main contents
-- <mark>: highlights or references
-- <time>: time
+- `<aside>`: not related to page
+- `<details>`: not rendered information
+- `<figure>`: additional figure or diagram
+- `<main>`: main contents
+- `<mark>`: highlights or references
+- `<time>`: time
 
 ## Search Engine Optimization(SEO)
 
 [SEO 기본 가이드: 기본사항 | Google 검색 센터 | 문서 | Google Developers](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=ko)
 
-### use <title>
+### use `<title>`
 
 the title can be updated
 
-### use <meta name=”description” content=””>
+### use `<meta name=”description” content=””>`
 
 This can be used as a page description
 
@@ -277,7 +277,7 @@ This can be used as a page description
 
 URL should be short and understandable
 
-### use <canonical> if a different URL has the same contents
+### use `<canonical>` if a different URL has the same contents
 
 or use Redirection (PHP, JAVA, or Python (server))
 
@@ -285,7 +285,7 @@ or use Redirection (PHP, JAVA, or Python (server))
 
 if you use Javascript or other methods that are not based on HyperLink, the search engine may not detect all sites
 
-### use <img alt=””> to deliver informations about an image
+### use `<img alt=””>` to deliver informations about an image
 
 The search engine will use alt attributes to understand images
 
@@ -300,7 +300,7 @@ protocols that define (which) search engines should (not) access (which) website
 polite request → not for security purposes
 
 - use sitemap.xml
-    - xml file that has <url> tags → which pages that website have
+    - xml file that has `<url>` tags → which pages that website have
     - The search engine can download xml file and understand what pages are inside the website
 
 ### REF) Google Search Engine Algorithm: PageRank Algorithm
@@ -309,11 +309,11 @@ Google finds which page has been referenced more (based on hyperlinks)
 
 # Other tags
 
-## <meta name=”viewport” content=”width=device-width”>
+## `<meta name=”viewport” content=”width=device-width”>`
 
 settings for mobile web
 
-## <iframe>
+## `<iframe>`
 
 import outer web page into my web page
 
@@ -325,11 +325,11 @@ import outer web page into my web page
 
 ### SECURITY ISSUE!
 
-if you use <iframe>, you should be careful of malicious websites that contains bad javascript code! (use sandbox to prevent these)
+if you use `<iframe>`, you should be careful of malicious websites that contains bad javascript code! (use sandbox to prevent these)
 
 # HTML5
 
-## <video>
+## `<video>`
 
 supports video format
 
@@ -337,7 +337,7 @@ supports video format
 
 - controls: can control video (play, stop…)
 
-## <source>
+## `<source>`
 
 imports video source
 
@@ -345,7 +345,7 @@ imports video source
 
 - src=”{source}”: video source address
 
-## <input>
+## `<input>`
 
 ### attributes
 
